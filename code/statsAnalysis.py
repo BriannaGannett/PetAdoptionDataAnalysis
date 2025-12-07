@@ -169,9 +169,12 @@ def main():
     # Plot data about the genders and ages
     plot_age_sex(cats_adopted, cats_for_adop, "Cats Adopted/For Adoption by Gender", "Gender")
     plot_age_sex(cats_adopted, cats_for_adop, "Cats Adopted/For Adoption by Age", "Age")
+    plot_age_sex(dogs_adopted, dogs_for_adop, "Dogs Adopted/For Adoption by Gender", "Gender")
+    plot_age_sex(dogs_adopted, dogs_for_adop, "Dogs Adopted/For Adoption by Age", "Age")
 
     # To plot the data about breeds, remove any breed with less than 100
     plot_breed_distribution(cats_adopted, cats_for_adop, "Cats Adopted/For Adoption by Breed")
+    plot_breed_distribution(dogs_adopted, dogs_for_adop, "Dogs Adopted/For Adoption by Breed")
     
     # Store chi-squared test and min/max data
     output = open("./outputData/analysisOutput.txt", "w")
