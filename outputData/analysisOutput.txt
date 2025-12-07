@@ -1,0 +1,316 @@
+Chi-Squared Test Results and Min/Max Data
+
+        Chi-Squared Tests:
+        Cats:
+        Age Results:
+        {'contingency_table': Adopted  No   Yes
+Age              
+Adult    80  4692
+Kitten   57  2383
+Senior   17   567
+Young    65  2052, 'chi2': np.float64(15.049597687469001), 'p_value': np.float64(0.001774751109624527), 'degrees_of_freedom': 3, 'expected': array([[ 105.4239887 , 4666.5760113 ],
+       [  53.90497327, 2386.09502673],
+       [  12.90184606,  571.09815394],
+       [  46.76919197, 2070.23080803]])}
+        Gender Results:
+        {'contingency_table': Adopted   No   Yes
+Gender            
+Female   128  5473
+Male      89  4221
+Unknown    2     0, 'chi2': np.float64(89.09491288249018), 'p_value': np.float64(4.500756161892057e-20), 'degrees_of_freedom': 2, 'expected': array([[1.23738424e+02, 5.47726158e+03],
+       [9.52173913e+01, 4.21478261e+03],
+       [4.41844043e-02, 1.95581560e+00]])}
+        Breed Results:
+        {'contingency_table': Adopted                                       No  Yes
+Breed                                                
+American Bobtail                               0    2
+American Bobtail & Domestic Short Hair Mix     1    1
+American Shorthair                            12   30
+American Shorthair & Bombay Mix                0    1
+American Shorthair & Domestic Short Hair Mix   0    1
+...                                           ..  ...
+Tuxedo                                         3   52
+Tuxedo & American Bobtail Mix                  1    0
+Tuxedo & Domestic Short Hair Mix               0    3
+Tuxedo & Tabby Mix                             0    1
+Tuxedo Mix                                     0    7
+
+[200 rows x 2 columns], 'chi2': np.float64(776.2678471335761), 'p_value': np.float64(4.029545471533008e-69), 'degrees_of_freedom': 199, 'expected': array([[4.41844043e-02, 1.95581560e+00],
+       [4.41844043e-02, 1.95581560e+00],
+       [9.27872491e-01, 4.10721275e+01],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [1.76737617e-01, 7.82326238e+00],
+       [1.54645415e-01, 6.84535458e+00],
+       [6.62766065e-02, 2.93372339e+00],
+       [4.41844043e-02, 1.95581560e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [4.41844043e-02, 1.95581560e+00],
+       [1.10461011e-01, 4.88953899e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [4.41844043e-02, 1.95581560e+00],
+       [2.27549682e+00, 1.00724503e+02],
+       [2.20922022e-02, 9.77907798e-01],
+       [4.41844043e-02, 1.95581560e+00],
+       [4.41844043e-02, 1.95581560e+00],
+       [1.98829819e-01, 8.80117018e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [4.41844043e-02, 1.95581560e+00],
+       [1.76737617e-01, 7.82326238e+00],
+       [4.86028447e-01, 2.15139716e+01],
+       [4.41844043e-02, 1.95581560e+00],
+       [4.41844043e-02, 1.95581560e+00],
+       [4.41844043e-02, 1.95581560e+00],
+       [6.62766065e-02, 2.93372339e+00],
+       [5.74397256e-01, 2.54256027e+01],
+       [2.20922022e-02, 9.77907798e-01],
+       [4.41844043e-02, 1.95581560e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [4.41844043e-02, 1.95581560e+00],
+       [1.35204277e+01, 5.98479572e+02],
+       [4.41844043e-01, 1.95581560e+01],
+       [2.20922022e-02, 9.77907798e-01],
+       [4.41844043e-02, 1.95581560e+00],
+       [6.62766065e-02, 2.93372339e+00],
+       [6.62766065e-02, 2.93372339e+00],
+       [8.83688086e-02, 3.91163119e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [6.40673863e-01, 2.83593261e+01],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [1.10461011e-01, 4.88953899e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [5.74397256e-01, 2.54256027e+01],
+       [2.65106426e-01, 1.17348936e+01],
+       [4.41844043e-02, 1.95581560e+00],
+       [2.65106426e-01, 1.17348936e+01],
+       [6.62766065e-02, 2.93372339e+00],
+       [2.84989408e+00, 1.26150106e+02],
+       [1.42052860e+01, 6.28794714e+02],
+       [3.97659639e-01, 1.76023404e+01],
+       [4.41844043e-02, 1.95581560e+00],
+       [4.41844043e-02, 1.95581560e+00],
+       [6.62766065e-02, 2.93372339e+00],
+       [8.83688086e-02, 3.91163119e+00],
+       [4.41844043e-02, 1.95581560e+00],
+       [2.65106426e-01, 1.17348936e+01],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [4.41844043e-01, 1.95581560e+01],
+       [7.29042671e-01, 3.22709573e+01],
+       [2.20922022e-02, 9.77907798e-01],
+       [1.54645415e-01, 6.84535458e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [3.33592253e+00, 1.47664077e+02],
+       [1.08229698e+02, 4.79077030e+03],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.43014224e-01, 1.07569858e+01],
+       [6.62766065e-02, 2.93372339e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [1.43599314e+00, 6.35640069e+01],
+       [3.97659639e-01, 1.76023404e+01],
+       [3.75567437e-01, 1.66244326e+01],
+       [2.20922022e-02, 9.77907798e-01],
+       [1.54645415e-01, 6.84535458e+00],
+       [2.65106426e-01, 1.17348936e+01],
+       [4.41844043e-02, 1.95581560e+00],
+       [4.41844043e-02, 1.95581560e+00],
+       [1.10461011e-01, 4.88953899e+00],
+       [6.18581660e-01, 2.73814183e+01],
+       [4.41844043e-02, 1.95581560e+00],
+       [4.72773126e+00, 2.09272269e+02],
+       [6.53929184e+00, 2.89460708e+02],
+       [1.54645415e-01, 6.84535458e+00],
+       [1.32553213e+00, 5.86744679e+01],
+       [2.87198628e-01, 1.27128014e+01],
+       [2.41246848e+01, 1.06787532e+03],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [4.41844043e-02, 1.95581560e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [8.83688086e-02, 3.91163119e+00],
+       [4.41844043e-02, 1.95581560e+00],
+       [4.19751841e-01, 1.85802482e+01],
+       [1.32553213e-01, 5.86744679e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [1.76737617e-01, 7.82326238e+00],
+       [5.74397256e-01, 2.54256027e+01],
+       [1.10461011e-01, 4.88953899e+00],
+       [6.62766065e-02, 2.93372339e+00],
+       [4.41844043e-02, 1.95581560e+00],
+       [6.62766065e-02, 2.93372339e+00],
+       [1.32553213e-01, 5.86744679e+00],
+       [8.83688086e-01, 3.91163119e+01],
+       [3.53475235e-01, 1.56465248e+01],
+       [1.32553213e-01, 5.86744679e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [4.41844043e-02, 1.95581560e+00],
+       [6.62766065e-02, 2.93372339e+00],
+       [2.87198628e-01, 1.27128014e+01],
+       [7.73227076e-01, 3.42267729e+01],
+       [4.41844043e-02, 1.95581560e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [6.62766065e-02, 2.93372339e+00],
+       [4.41844043e-02, 1.95581560e+00],
+       [3.53475235e-01, 1.56465248e+01],
+       [2.20922022e-02, 9.77907798e-01],
+       [4.41844043e-02, 1.95581560e+00],
+       [6.62766065e-02, 2.93372339e+00],
+       [6.62766065e-02, 2.93372339e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.65106426e-01, 1.17348936e+01],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [1.54645415e-01, 6.84535458e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [4.41844043e-02, 1.95581560e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [6.62766065e-02, 2.93372339e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [1.50226975e+00, 6.64977303e+01],
+       [4.41844043e-02, 1.95581560e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [1.10461011e-01, 4.88953899e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [5.52305054e-01, 2.44476949e+01],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [4.41844043e-02, 1.95581560e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [4.41844043e-02, 1.95581560e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [1.76737617e-01, 7.82326238e+00],
+       [6.18581660e-01, 2.73814183e+01],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [3.11500050e+00, 1.37884999e+02],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [8.83688086e-02, 3.91163119e+00],
+       [1.54645415e-01, 6.84535458e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [8.83688086e-02, 3.91163119e+00],
+       [6.62766065e-02, 2.93372339e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [1.10461011e+00, 4.88953899e+01],
+       [3.73358216e+00, 1.65266418e+02],
+       [2.20922022e-02, 9.77907798e-01],
+       [6.62766065e-02, 2.93372339e+00],
+       [4.41844043e-02, 1.95581560e+00],
+       [5.52305054e-01, 2.44476949e+01],
+       [6.62766065e-02, 2.93372339e+00],
+       [6.62766065e-02, 2.93372339e+00],
+       [5.08120650e-01, 2.24918794e+01],
+       [4.86028447e-01, 2.15139716e+01],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [2.20922022e-02, 9.77907798e-01],
+       [6.62766065e-02, 2.93372339e+00],
+       [2.05457480e+00, 9.09454252e+01],
+       [8.83688086e-02, 3.91163119e+00],
+       [2.43014224e-01, 1.07569858e+01],
+       [2.20922022e-02, 9.77907798e-01],
+       [6.62766065e-02, 2.93372339e+00],
+       [4.41844043e-02, 1.95581560e+00],
+       [3.97659639e-01, 1.76023404e+01],
+       [6.62766065e-02, 2.93372339e+00],
+       [3.31383032e-01, 1.46686170e+01],
+       [1.21507112e+00, 5.37849289e+01],
+       [2.20922022e-02, 9.77907798e-01],
+       [6.62766065e-02, 2.93372339e+00],
+       [2.20922022e-02, 9.77907798e-01],
+       [1.54645415e-01, 6.84535458e+00]])}
+
+        Dogs:
+        Age Results:
+        {'contingency_table': Adopted   No   Yes
+Age               
+Adult    141  2298
+Puppy     33  1254
+Senior    17   568
+Young    147  2077, 'chi2': np.float64(35.18857755334635), 'p_value': np.float64(1.1114569227079033e-07), 'degrees_of_freedom': 3, 'expected': array([[ 126.14873757, 2312.85126243],
+       [  66.56557001, 1220.43442999],
+       [  30.25707728,  554.74292272],
+       [ 115.02861515, 2108.97138485]])}
+        Gender Results:
+        {'contingency_table': Adopted   No   Yes
+Gender            
+Female   174  3020
+Male     155  3177
+Unknown    9     0, 'chi2': np.float64(167.34241001054525), 'p_value': np.float64(4.592586787129175e-37), 'degrees_of_freedom': 2, 'expected': array([[1.65198470e+02, 3.02880153e+03],
+       [1.72336037e+02, 3.15966396e+03],
+       [4.65493497e-01, 8.53450650e+00]])}
+        Breed Results:
+        {'contingency_table': Adopted                                    No  Yes
+Breed                                             
+Afghan Hound                                0    3
+Airedale Terrier                            0    2
+Airedale Terrier & Labrador Retriever Mix   0    2
+Airedale Terrier Mix                        0    1
+Akbash                                      0    1
+...                                        ..  ...
+Yorkshire Terrier & Dachshund Mix           0    1
+Yorkshire Terrier & Poodle Mix              0    3
+Yorkshire Terrier & Schnauzer Mix           0    3
+Yorkshire Terrier & Terrier Mix             0    1
+Yorkshire Terrier Mix                       0   12
+
+[961 rows x 2 columns], 'chi2': np.float64(1910.4328003258604), 'p_value': np.float64(2.1475222974667654e-65), 'degrees_of_freedom': 960, 'expected': array([[ 0.1551645,  2.8448355],
+       [ 0.103443 ,  1.896557 ],
+       [ 0.103443 ,  1.896557 ],
+       ...,
+       [ 0.1551645,  2.8448355],
+       [ 0.0517215,  0.9482785],
+       [ 0.620658 , 11.379342 ]], shape=(961, 2))}
+
+        Min/Max Data:
+
+        Cats:
+        Adopted:
+        Max Breed: Domestic Short Hair
+        Min Breeds: ['Domestic Medium Hair & Tuxedo Mix', 'Manx Mix', 'Siamese & Domestic Medium Hair Mix', 'Siamese & Snowshoe Mix', 'Calico & Dilute Calico Mix', 'Exotic Shorthair Mix', 'Tabby & American Bobtail Mix', 'Scottish Fold Mix', 'Tiger & American Shorthair Mix', 'Tuxedo & Tabby Mix', 'Torbie & Siamese Mix', 'Exotic Shorthair', 'Extra-Toes Cat / Hemingway Polydactyl & Tiger Mix', 'Munchkin', 'Ragdoll Mix', 'Siamese & Extra-Toes Cat / Hemingway Polydactyl Mix', 'American Shorthair & Bombay Mix', 'Russian Blue & Domestic Medium Hair Mix', 'Dilute Tortoiseshell & Dilute Calico Mix', 'Maine Coon & Ragamuffin Mix', 'Domestic Long Hair & Domestic Short Hair Mix', 'Ragamuffin & Maine Coon Mix', 'Snowshoe & Russian Blue Mix', 'Russian Blue & Siamese Mix', 'British Shorthair', 'Snowshoe', 'Russian Blue & Tiger Mix', 'Ragdoll & Snowshoe Mix', 'Manx & Tabby Mix', 'Calico & Tortoiseshell Mix', 'Maine Coon & Domestic Short Hair Mix', 'Domestic Long Hair & Chartreux Mix', 'American Bobtail & Domestic Short Hair Mix', 'Domestic Long Hair & Persian Mix', 'Ragdoll & Siamese Mix', 'Persian & Domestic Long Hair Mix', 'Domestic Long Hair & Ragdoll Mix', 'Snowshoe & Domestic Short Hair Mix', 'Domestic Medium Hair & Siamese Mix', 'Tabby & Birman Mix', 'Domestic Short Hair & Abyssinian Mix', 'Domestic Long Hair & Russian Blue Mix', 'Siamese & Tiger Mix', 'Siamese & Dilute Tortoiseshell Mix', 'Tabby & Extra-Toes Cat / Hemingway Polydactyl Mix', 'Siamese & Dilute Calico Mix', 'Torbie & Domestic Short Hair Mix', 'Domestic Medium Hair & Persian Mix', 'Dilute Tortoiseshell & Extra-Toes Cat / Hemingway Polydactyl Mix', 'Siamese & Himalayan Mix', 'American Shorthair & Domestic Short Hair Mix', 'American Shorthair & Tabby Mix', 'Tortoiseshell & Extra-Toes Cat / Hemingway Polydactyl Mix', 'Domestic Short Hair & Domestic Long Hair Mix', 'Domestic Medium Hair & Torbie Mix', 'Domestic Short Hair & American Shorthair Mix', 'Domestic Long Hair & Sphynx / Hairless Cat Mix', 'Domestic Long Hair & Extra-Toes Cat / Hemingway Polydactyl Mix', 'Extra-Toes Cat / Hemingway Polydactyl & Calico Mix', 'Torbie & Calico Mix', 'British Shorthair & Tabby Mix', 'Tabby & Torbie Mix', 'Extra-Toes Cat / Hemingway Polydactyl & Tortoiseshell Mix']
+        Max Age: Adult
+        Min Age: Senior
+        Max Gender: Female
+        Min Gender: Male
+
+        For Adoption:
+        Max Breed: Domestic Short Hair
+        Min Breeds: ['Bombay', 'Domestic Medium Hair & Calico Mix', 'Bengal Mix', 'American Bobtail & Domestic Short Hair Mix', 'Manx & Domestic Short Hair Mix', 'Tuxedo & American Bobtail Mix', 'Dilute Calico', 'Calico Mix', 'Bombay & Domestic Short Hair Mix', 'Domestic Short Hair & Dilute Tortoiseshell Mix', 'Domestic Medium Hair & Domestic Short Hair Mix', 'Domestic Short Hair & Bombay Mix', 'Siamese & Tortoiseshell Mix', 'Bombay Mix', 'Persian', 'Snowshoe & Siamese Mix', 'Bengal']
+        Max Age: Adult
+        Min Age: Senior
+        Max Gender: Female
+        Min Gender: Male
+
+        Dogs:
+        Adopted:
+        Max Breed: Greyhound
+        Min Breeds: ['Labrador Retriever & Basset Hound Mix', 'Shepherd & Italian Greyhound Mix', 'Shepherd & Siberian Husky Mix', 'Labrador Retriever & Irish Wolfhound Mix', 'Pekingese & Poodle Mix', 'Great Dane & Hound Mix', 'Terrier & Border Terrier Mix', 'Labrador Retriever & Siberian Husky Mix', 'Eskimo Dog', 'Border Terrier', 'Greater Swiss Mountain Dog Mix', 'Australian Cattle Dog / Blue Heeler & Jack Russell Terrier Mix', 'Catahoula Leopard Dog & Greyhound Mix', 'Australian Shepherd & Pit Bull Terrier Mix', 'Catahoula Leopard Dog & Great Dane Mix', 'Redbone Coonhound & Catahoula Leopard Dog Mix', 'Catahoula Leopard Dog & Chinook Mix', 'Toy Fox Terrier', 'Border Collie & Schipperke Mix', 'Australian Cattle Dog / Blue Heeler & Chihuahua Mix', 'Catahoula Leopard Dog & German Shorthaired Pointer Mix', 'Catahoula Leopard Dog & Bull Terrier Mix', 'Catahoula Leopard Dog & Australian Kelpie Mix', 'Catahoula Leopard Dog & Redbone Coonhound Mix', 'Dalmatian & Dogo Argentino Mix', 'Catahoula Leopard Dog & Black Mouth Cur Mix', 'Catahoula Leopard Dog & Doberman Pinscher Mix', 'Jack Russell Terrier & Australian Cattle Dog / Blue Heeler Mix', 'Weimaraner Mix', 'Husky & Corgi Mix', 'Shih Tzu & Poodle Mix', 'Mountain Cur & Plott Hound Mix', 'Terrier & Hound Mix', 'Catahoula Leopard Dog & Plott Hound Mix', 'Staffordshire Bull Terrier & Labrador Retriever Mix', 'Yellow Labrador Retriever & Irish Wolfhound Mix', 'Husky & Collie Mix', 'Husky & American Bulldog Mix', 'American Bulldog & Rottweiler Mix', 'American Staffordshire Terrier & Dalmatian Mix', 'Labrador Retriever & Setter Mix', 'Australian Kelpie & Hound Mix', 'Corgi & Pit Bull Terrier Mix', 'Feist & Rat Terrier Mix', 'Black Labrador Retriever & Australian Cattle Dog / Blue Heeler Mix', 'White German Shepherd & Cattle Dog Mix', 'Great Pyrenees & Border Collie Mix', 'Dachshund & Shiba Inu Mix', 'Golden Retriever & Black Labrador Retriever Mix', 'Redbone Coonhound & Chocolate Labrador Retriever Mix', 'Border Collie & Pointer Mix', 'Akbash', 'Collie & Husky Mix', 'Great Pyrenees & Collie Mix', 'Fila Brasileiro & Cane Corso Mix', 'Belgian Shepherd / Tervuren & German Shepherd Dog Mix', 'Pit Bull Terrier & Staffordshire Bull Terrier Mix', 'Pug & Pekingese Mix', 'White German Shepherd & Border Collie Mix', 'Miniature Pinscher & Rat Terrier Mix', 'Doberman Pinscher & Shar-Pei Mix', 'Plott Hound & Labrador Retriever Mix', 'Jack Russell Terrier & Border Collie Mix', 'Plott Hound & Dutch Shepherd Mix', 'Australian Cattle Dog / Blue Heeler & Cattle Dog Mix', 'Treeing Walker Coonhound & English Coonhound Mix', 'Yellow Labrador Retriever & Basenji Mix', 'Patterdale Terrier / Fell Terrier Mix', 'Shiba Inu & Terrier Mix', 'Plott Hound & Boxer Mix', 'Cattle Dog & Shepherd Mix', 'Corgi & Australian Cattle Dog / Blue Heeler Mix', 'Chihuahua & Chiweenie Mix', 'Flat-Coated Retriever & Border Collie Mix', 'Husky & Terrier Mix', 'Mastiff & Boxer Mix', 'English Pointer Mix', 'Spaniel', 'Staffordshire Bull Terrier & Terrier Mix', 'Chinese Crested Dog Mix', 'Saint Bernard & Bernese Mountain Dog Mix', 'Rottweiler & Catahoula Leopard Dog Mix', 'Terrier & Staffordshire Bull Terrier Mix', 'Jack Russell Terrier & Hound Mix', 'Havanese Mix', 'Black Labrador Retriever & German Shorthaired Pointer Mix', 'Samoyed', 'Australian Shepherd & Bluetick Coonhound Mix', 'Cattle Dog & Yellow Labrador Retriever Mix', 'Doberman Pinscher', 'Dachshund & Basset Hound Mix', 'Pit Bull Terrier & Dalmatian Mix', 'German Wirehaired Pointer & Terrier Mix', 'Dachshund & Wirehaired Terrier Mix', 'Lancashire Heeler Mix', 'Border Collie & Chow Chow Mix', 'Shetland Sheepdog / Sheltie & Collie Mix', 'Spaniel & Border Collie Mix', 'Dutch Shepherd Mix', 'Australian Kelpie & Siberian Husky Mix', 'German Shepherd Dog & Dutch Shepherd Mix', 'Briard Mix', 'Cattle Dog & Hound Mix', 'Anatolian Shepherd & Retriever Mix', 'American Bulldog & Patterdale Terrier / Fell Terrier Mix', 'Doberman Pinscher & Retriever Mix', 'Akita & Retriever Mix', 'Chihuahua & Cardigan Welsh Corgi Mix', 'Parson Russell Terrier', 'Border Collie & Cattle Dog Mix', 'Boxer & Mountain Cur Mix', 'Black Labrador Retriever & Australian Shepherd Mix', 'French Bulldog & Pit Bull Terrier Mix', 'American Staffordshire Terrier & Bull Terrier Mix', 'German Shepherd Dog & Great Dane Mix', 'Yorkshire Terrier & Terrier Mix', 'Plott Hound & German Shorthaired Pointer Mix', 'Yellow Labrador Retriever & Retriever Mix', 'Treeing Walker Coonhound & Foxhound Mix', 'Retriever & Black Labrador Retriever Mix', 'Treeing Walker Coonhound & Bluetick Coonhound Mix', 'Hound & Bluetick Coonhound Mix', 'Husky & Siberian Husky Mix', 'Terrier & Wirehaired Terrier Mix', 'Catahoula Leopard Dog & English Bulldog Mix', 'Yellow Labrador Retriever & Labrador Retriever Mix', 'Catahoula Leopard Dog & Staffordshire Bull Terrier Mix', 'Poodle & Cattle Dog Mix', 'Australian Kelpie & Labrador Retriever Mix', 'English Bulldog & Terrier Mix', 'Pug & Basset Hound Mix', 'Anatolian Shepherd & Great Pyrenees Mix', 'Chocolate Labrador Retriever & Terrier Mix', 'Vizsla & Terrier Mix', 'Terrier & Miniature Schnauzer Mix', 'Black Mouth Cur & Rhodesian Ridgeback Mix', 'Weimaraner & Terrier Mix', 'Mastiff & German Shepherd Dog Mix', 'Basenji', 'Mountain Cur & Shiba Inu Mix', 'Corgi & Terrier Mix', 'Terrier & Basenji Mix', 'Scottish Terrier & Chihuahua Mix', 'Weimaraner & Great Dane Mix', 'Cane Corso & Boxer Mix', 'Husky & Chow Chow Mix', 'American Staffordshire Terrier & Rat Terrier Mix', 'Border Terrier & Black Labrador Retriever Mix', 'Shar-Pei & Shepherd Mix', 'Boxer & Doberman Pinscher Mix', 'Spitz & Labrador Retriever Mix', 'Rottweiler & German Shepherd Dog Mix', 'Pomeranian & Beagle Mix', 'Vizsla', 'Chihuahua & Pit Bull Terrier Mix', 'Golden Retriever & Poodle Mix', 'Basset Hound & Retriever Mix', 'Bluetick Coonhound & Retriever Mix', 'Pit Bull Terrier & Retriever Mix', 'Miniature Pinscher & Beagle Mix', 'Pit Bull Terrier & Shar-Pei Mix', 'Border Collie & Pit Bull Terrier Mix', 'Basset Hound & American Bulldog Mix', 'German Shepherd Dog & English Bulldog Mix', 'Chow Chow & Newfoundland Dog Mix', 'Spaniel & Husky Mix', 'Shepherd & Basset Hound Mix', 'Rat Terrier & Miniature Pinscher Mix', 'Bullmastiff & English Bulldog Mix', 'Husky & Golden Retriever Mix', 'Brittany Spaniel & Setter Mix', 'Shih Tzu & Lhasa Apso Mix', 'Rhodesian Ridgeback & Staffordshire Bull Terrier Mix', 'Dogo Argentino', 'Foxhound Mix', 'Akita & Shepherd Mix', 'Yorkshire Terrier & Dachshund Mix', 'Terrier & Husky Mix', 'Terrier & Lhasa Apso Mix', 'Shepherd & Alaskan Malamute Mix', 'Great Pyrenees & Catahoula Leopard Dog Mix', 'Australian Cattle Dog / Blue Heeler & German Shepherd Dog Mix', 'Australian Shepherd & Catahoula Leopard Dog Mix', 'Staffordshire Bull Terrier & Boxer Mix', 'Whippet & Italian Greyhound Mix', 'Australian Cattle Dog / Blue Heeler & Yellow Labrador Retriever Mix', 'Staffordshire Bull Terrier & American Bulldog Mix', 'Poodle & Pomeranian Mix', 'Poodle & Yorkshire Terrier Mix', 'Pomeranian & Golden Retriever Mix', 'Maltipoo & Poodle Mix', 'Cattle Dog & Saint Bernard Mix', 'Whippet', 'German Shepherd Dog & Saint Bernard Mix', 'Shepherd & Akita Mix', 'Shih Tzu & French Bulldog Mix', 'Beagle & Brittany Spaniel Mix', 'Aussiedoodle', 'Australian Shepherd & Standard Poodle Mix', 'Poodle & Maltese Mix', 'Maltese & Poodle (Toy) Mix', 'Hound & Husky Mix', 'Boxer & Black Labrador Retriever Mix', 'Shepherd & Saint Bernard Mix', 'Husky & Yellow Labrador Retriever Mix', 'Black Labrador Retriever & Greyhound Mix', 'Jack Russell Terrier & Fox Terrier Mix', 'Shepherd & Canaan Dog Mix', 'Portuguese Water Dog Mix', 'Shiba Inu', 'Catahoula Leopard Dog & Setter Mix', 'Shih Tzu & Pug Mix', 'Peruvian Inca Orchid Mix', 'Shar-Pei Mix', 'Setter', 'Hound & German Shepherd Dog Mix', 'Chihuahua & Manchester Terrier Mix', 'Wheaten Terrier & Schnauzer Mix', 'Boxer & Vizsla Mix', 'Pit Bull Terrier & Chihuahua Mix', 'Jack Russell Terrier & Parson Russell Terrier Mix', 'Beagle & Dalmatian Mix', 'Boxer & Italian Greyhound Mix', 'Belgian Shepherd / Malinois & German Shepherd Dog Mix', 'Dachshund & Catahoula Leopard Dog Mix', 'Rough Collie Mix', 'Puggle Mix', 'Chihuahua & Papillon Mix', 'Boxer & Airedale Terrier Mix', 'Miniature Pinscher & Terrier Mix', 'Tibetan Terrier & Terrier Mix', 'Pug & Terrier Mix', 'Doberman Pinscher & Pit Bull Terrier Mix', 'Pit Bull Terrier & Border Collie Mix', 'Spaniel & Retriever Mix', 'Australian Cattle Dog / Blue Heeler & American Staffordshire Terrier Mix', 'Great Pyrenees & Mastiff Mix', 'Boykin Spaniel & Black Labrador Retriever Mix', 'German Shorthaired Pointer & Hound Mix', 'Australian Shepherd & Husky Mix', 'Fox Terrier Mix', 'Pit Bull Terrier & Collie Mix', 'Cairn Terrier & Schnauzer Mix', 'Terrier & Jack Russell Terrier Mix', 'Golden Retriever & Australian Shepherd Mix', 'German Shepherd Dog & Hound Mix', 'Black Labrador Retriever & Border Collie Mix', 'German Shepherd Dog & Akita Mix', 'Black Mouth Cur & Terrier Mix', 'Australian Shepherd & Plott Hound Mix', 'Border Collie & Rat Terrier Mix', 'Pointer & Black Labrador Retriever Mix', 'Newfoundland Dog & Australian Shepherd Mix', 'Shih poo', 'Poodle & Dachshund Mix', 'Dachshund & Poodle Mix', 'Chesapeake Bay Retriever & Chocolate Labrador Retriever Mix', 'Border Collie & Spaniel Mix', 'Cattle Dog & Australian Shepherd Mix', 'Puggle & American Bulldog Mix', 'Chihuahua & Schnauzer Mix', 'Puggle & Dachshund Mix', 'Pointer & American Bulldog Mix', 'Australian Cattle Dog / Blue Heeler & Shepherd Mix', 'Jack Russell Terrier & Chiweenie Mix', 'American Bulldog & Shar-Pei Mix', 'Hound & Rottweiler Mix', 'Shih Tzu & Yorkshire Terrier Mix', 'Shepherd & Australian Cattle Dog / Blue Heeler Mix', 'Chiweenie & Pug Mix', 'Cavalier King Charles Spaniel', 'Border Collie & German Shorthaired Pointer Mix', 'Labradoodle & Airedale Terrier Mix', 'Greyhound & Anatolian Shepherd Mix', 'Redbone Coonhound & Labrador Retriever Mix', 'Smooth Collie & Hound Mix', 'Doberman Pinscher & Hound Mix', 'Schnauzer & Miniature Dachshund Mix', 'Miniature Schnauzer Mix', 'Blue Lacy & Shepherd Mix', 'Akita Mix', 'Black Labrador Retriever & Shepherd Mix', 'Chocolate Labrador Retriever & Setter Mix', 'Beagle & Spaniel Mix', 'Black and Tan Coonhound & Coonhound Mix', 'Shepherd & Great Pyrenees Mix', 'Chihuahua & Pomsky Mix', 'Yellow Labrador Retriever & Shepherd Mix', 'Black Labrador Retriever & Chocolate Labrador Retriever Mix', 'Chocolate Labrador Retriever & Basset Hound Mix', 'Maltese & Yorkshire Terrier Mix', 'Rottweiler & Pit Bull Terrier Mix', 'Cardigan Welsh Corgi & Australian Cattle Dog / Blue Heeler Mix', 'Retriever & Terrier Mix', 'Collie', 'Cocker Spaniel & Beagle Mix', 'Airedale Terrier Mix', 'Thai Ridgeback Mix', 'Shepherd & Boxer Mix', 'Retriever & Hound Mix', 'Brittany Spaniel & Retriever Mix', 'Papillon & Shetland Sheepdog / Sheltie Mix', 'Pomeranian & American Eskimo Dog Mix', 'Bullmastiff & American Bulldog Mix', 'Australian Shepherd & Retriever Mix', 'Spaniel & Australian Shepherd Mix', 'Terrier & American Staffordshire Terrier Mix', 'American Bulldog & Catahoula Leopard Dog Mix', 'Spaniel & Golden Retriever Mix', 'Hound & Black Mouth Cur Mix', 'American Bulldog & Great Dane Mix', 'Labrador Retriever & Bloodhound Mix', 'Husky & Australian Cattle Dog / Blue Heeler Mix', 'Great Pyrenees & American Bulldog Mix', 'Terrier & Fox Terrier Mix', 'Chocolate Labrador Retriever & Shepherd Mix', 'Black Mouth Cur & Mastiff Mix', 'Australian Cattle Dog / Blue Heeler & American Bulldog Mix', 'Brussels Griffon Mix', 'Great Dane & American Bulldog Mix', 'German Shorthaired Pointer & Chocolate Labrador Retriever Mix', 'Mastiff & Black Mouth Cur Mix', 'Border Collie & American Bulldog Mix', 'Redbone Coonhound & Hound Mix', 'Old English Sheepdog', 'Toy Fox Terrier Mix', 'Manchester Terrier', 'Wirehaired Pointing Griffon', 'Labrador Retriever & Newfoundland Dog Mix', 'Corgi & Jack Russell Terrier Mix', 'Black Russian Terrier', 'Maltese & Cocker Spaniel Mix', 'Black Labrador Retriever & Golden Retriever Mix', 'Collie & Labrador Retriever Mix', 'Corgi & Chihuahua Mix', 'Pomsky', 'Terrier & Shih Tzu Mix', 'Great Pyrenees & Australian Cattle Dog / Blue Heeler Mix', 'Wheaten Terrier', 'Basset Hound & Terrier Mix', 'Shar-Pei & American Bulldog Mix', 'German Shepherd Dog & Beagle Mix', 'Greyhound Mix', 'Beagle & Corgi Mix', 'Golden Retriever & Great Pyrenees Mix', 'Husky & Hound Mix', 'Labrador Retriever & Doberman Pinscher Mix', 'Doberman Pinscher & Boxer Mix', 'Boxer & German Shepherd Dog Mix', 'Shepherd & Shar-Pei Mix', 'English Springer Spaniel & Terrier Mix', 'Maltese & Shih Tzu Mix', 'Rhodesian Ridgeback Mix', 'Coonhound & Bluetick Coonhound Mix', 'Boston Terrier & Dachshund Mix', 'English Bulldog & American Bully Mix', 'Beagle & Yellow Labrador Retriever Mix', 'Labrador Retriever & Eskimo Dog Mix', 'Black Labrador Retriever & Chow Chow Mix', 'Terrier & Schnauzer Mix', 'Dutch Shepherd & Labrador Retriever Mix', 'Cavalier King Charles Spaniel & Chihuahua Mix', 'Chocolate Labrador Retriever & American Staffordshire Terrier Mix', 'Whippet & Boxer Mix', 'Chow Chow & Spaniel Mix', 'Whippet & Dachshund Mix', 'Terrier & Corgi Mix', 'Schnauzer & Labrador Retriever Mix', 'American Bully & American Staffordshire Terrier Mix', 'English Bulldog & Husky Mix', 'Weimaraner & Pointer Mix', 'Cavalier King Charles Spaniel & Shih Tzu Mix', 'Cavachon Mix', 'Schnauzer & Jack Russell Terrier Mix', 'Bloodhound & Boxer Mix', 'Miniature Pinscher & Pomeranian Mix', 'Boxer & Staffordshire Bull Terrier Mix', 'French Bulldog & Boston Terrier Mix', 'Shih Tzu & Maltese Mix', 'Siberian Husky & Labrador Retriever Mix', 'Dandie Dinmont Terrier', 'Australian Shepherd & Chow Chow Mix', 'English Setter', 'Greyhound & Shepherd Mix', 'Chesapeake Bay Retriever', 'Collie & Shetland Sheepdog / Sheltie Mix', 'Labradoodle', 'Pit Bull Terrier & Hound Mix', 'Hound & Pit Bull Terrier Mix', 'Golden Retriever & Border Collie Mix', 'Shepherd & Black Labrador Retriever Mix', 'Labrador Retriever & Bull Terrier Mix', 'Boxer & Collie Mix', 'Labrador Retriever & Black Labrador Retriever Mix', 'Pomeranian & Pekingese Mix', 'Labrador Retriever & Shiba Inu Mix', 'American Bulldog & Hound Mix', 'Rhodesian Ridgeback & Hound Mix', 'Parson Russell Terrier & Chihuahua Mix', 'Boxer & Shar-Pei Mix', 'Collie & Australian Shepherd Mix', 'Bichon Frise Mix', 'Briard', 'Cattle Dog & Labrador Retriever Mix', 'Papillon', 'Wirehaired Terrier & Terrier Mix', 'Redbone Coonhound & Treeing Walker Coonhound Mix', 'Feist', 'Terrier & Papillon Mix', 'Papillon Mix', 'Brussels Griffon', 'Great Pyrenees & Terrier Mix', 'English Setter & Border Collie Mix', 'German Shepherd Dog & Border Collie Mix', 'Shiba Inu Mix', 'Catahoula Leopard Dog & Husky Mix', 'Catahoula Leopard Dog & German Shepherd Dog Mix', 'Catahoula Leopard Dog & Mastiff Mix', 'Shepherd & Cattle Dog Mix', 'Schnauzer & Shih Tzu Mix', 'Pointer & Terrier Mix', 'Chihuahua & Wirehaired Terrier Mix', 'Wirehaired Terrier Mix', 'Alaskan Malamute & Husky Mix', 'Terrier & Beagle Mix', 'Pomeranian & Terrier Mix', 'German Spitz & Shepherd Mix', 'Boston Terrier & Terrier Mix', 'Chocolate Labrador Retriever & Spaniel Mix', 'Great Dane & Great Pyrenees Mix', 'Yellow Labrador Retriever & Golden Retriever Mix', 'Chihuahua & Feist Mix', 'Shepherd & Doberman Pinscher Mix', 'Labrador Retriever & Carolina Dog Mix', 'German Shepherd Dog & Belgian Shepherd / Malinois Mix', 'Dalmatian & Labrador Retriever Mix', 'Great Pyrenees & Husky Mix', 'Terrier & Basset Hound Mix', 'Mastiff & Staffordshire Bull Terrier Mix', 'Australian Shepherd & German Shepherd Dog Mix', 'Greyhound & Beagle Mix', 'Portuguese Water Dog', 'Basset Hound', 'Shepherd & Beagle Mix', 'Pharaoh Hound & Husky Mix', 'Great Dane & German Shepherd Dog Mix', 'Newfoundland Dog & Retriever Mix', 'Pit Bull Terrier & Greyhound Mix', 'Poodle & Pekingese Mix', 'Spaniel & Shepherd Mix', 'Jack Russell Terrier & Corgi Mix']
+        Max Age: Adult
+        Min Age: Senior
+        Max Gender: Male
+        Min Gender: Female
+
+        For Adoption:
+        Max Breed: Mixed Breed
+        Min Breeds: ['German Shepherd Dog & Saluki Mix', 'Corgi & Cattle Dog Mix', 'Standard Poodle & Labrador Retriever Mix', 'Dutch Shepherd', 'Doberman Pinscher Mix', 'Belgian Shepherd / Malinois & Shepherd Mix', 'Australian Shepherd & Mastiff Mix', 'Hound', 'Great Dane', 'American Staffordshire Terrier & Husky Mix', 'German Shepherd Dog & Labrador Retriever Mix', 'Husky & Labrador Retriever Mix', 'Mastiff', 'Anatolian Shepherd & Shepherd Mix', 'Labrador Retriever & Shepherd Mix', 'Husky', 'Wire Fox Terrier & Terrier Mix', 'Pit Bull Terrier & Corgi Mix', 'Chow Chow & Siberian Husky Mix', 'Collie & Hound Mix', 'American Bulldog', 'Retriever Mix', 'Carolina Dog & Yellow Labrador Retriever Mix', 'Rhodesian Ridgeback & German Shepherd Dog Mix', 'Siberian Husky Mix', 'Terrier & Staffordshire Bull Terrier Mix', 'Spitz Mix', 'German Shepherd Dog & Black Mouth Cur Mix', 'Labrador Retriever & Staffordshire Bull Terrier Mix', 'Chiweenie Mix', 'Labrador Retriever & Pit Bull Terrier Mix', 'West Highland White Terrier / Westie & Yorkie Poo Mix', 'Beagle', 'Belgian Shepherd / Malinois', 'Black Labrador Retriever & American Staffordshire Terrier Mix', 'Boxer & Pit Bull Terrier Mix', 'Yellow Labrador Retriever', 'English Bulldog', 'Catahoula Leopard Dog & Beagle Mix', 'Black Labrador Retriever & Catahoula Leopard Dog Mix', 'Catahoula Leopard Dog & Labrador Retriever Mix', 'Great Pyrenees & Anatolian Shepherd Mix', 'Great Dane & Labrador Retriever Mix', 'Black Labrador Retriever & German Shepherd Dog Mix', 'Schnauzer Mix', 'Chocolate Labrador Retriever & German Shorthaired Pointer Mix', 'Dachshund & Beagle Mix', 'Chihuahua', 'Boxer & American Bully Mix', 'Doberman Pinscher', 'Catahoula Leopard Dog Mix', 'Australian Shepherd', 'Labrador Retriever & Mastiff Mix', 'Brittany Spaniel', 'English Pointer', 'White German Shepherd Mix', 'Black Mouth Cur & American Staffordshire Terrier Mix', 'Pekingese', 'Japanese Chin', 'Coonhound & Foxhound Mix', 'Rottweiler & Pit Bull Terrier Mix', 'Pomeranian & Husky Mix', 'Catahoula Leopard Dog', 'Black Mouth Cur & Hound Mix', 'Beagle Mix', 'Labrador Retriever & Weimaraner Mix', 'Yellow Labrador Retriever & Husky Mix', 'Poodle & Black Labrador Retriever Mix', 'Husky & German Shepherd Dog Mix', 'Mastiff Mix']
+        Max Age: Young
+        Min Age: Senior
+        Max Gender: Female
+        Min Gender: Male
+        
